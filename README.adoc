@@ -76,7 +76,7 @@ docker run -it -e POSTGRES_PASSWORD=password -p 5432:5432 postgres
 
 `docker run` :  éxecute le conteneur
 
-`-it` : 
+`-it` : permet d’interagir avec un conteneur en mode terminal
 
 `e POSTGRES_PASSWORD=password`: permet de définir la variable d'environement qui définit le mot de passe de Postgres dans le conteneur
 
